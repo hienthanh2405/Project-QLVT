@@ -1,0 +1,6 @@
+CREATE PROCEDURE [dbo].[SP_UndoThemDathang] 
+	@MasoDDH NCHAR(8)
+AS
+BEGIN
+	DELETE FROM dbo.DATHANG WHERE MasoDDH = @MasoDDH
+END

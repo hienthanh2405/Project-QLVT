@@ -1,0 +1,6 @@
+CREATE PROC [dbo].[SP_KiemTraDDHDaCoPhieuNhap]
+@MasoDDH NCHAR(8)
+AS
+BEGIN
+	
+END
